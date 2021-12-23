@@ -6,7 +6,7 @@ Hereby are some code snippets i wrote that cover some generic workflow when hand
 - load a folder of Excel file, filter, select specific columns and combine them into a single Dataframe.
 - query a Database and store the result into a Dataframe.
 
-Beware that the (tablecloth)[https://scicloj.github.io/tablecloth/index.html] works with Clojure >1.10
+Beware that the [tablecloth](https://scicloj.github.io/tablecloth/index.html) works with Clojure >1.10
 
 
 ## Usage

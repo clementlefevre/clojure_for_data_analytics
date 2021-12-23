@@ -1,10 +1,10 @@
-(ns clojure-for-data-analysis.excel-demo (:require [clojure-for-data-analysis.file-service :as fs]
-                                                   [clojure.string :as s]
-                                                   [tablecloth.api :as tc]
-                                                   [tech.v3.dataset.io.spreadsheet]
-                                                   [tech.v3.libs.fastexcel]
-                                                   [tech.v3.libs.poi]
-                                                   [taoensso.timbre :as timbre :refer [info error]]))
+(ns clojure-for-data-manipulation.excel-demo (:require [clojure-for-data-manipulation.file-service :as fs]
+                                                       [clojure.string :as s]
+                                                       [tablecloth.api :as tc]
+                                                       [tech.v3.dataset.io.spreadsheet]
+                                                       [tech.v3.libs.fastexcel]
+                                                       [tech.v3.libs.poi]
+                                                       [taoensso.timbre :as timbre :refer [info error]]))
 
 
 

@@ -1,6 +1,6 @@
-(ns clojure-for-data-analysis.core-test
+(ns clojure-for-data-manipulation.core-test
   (:require [clojure.test :refer :all]
-            [clojure-for-data-analysis.core :refer :all]))
+            [clojure-for-data-manipulation.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

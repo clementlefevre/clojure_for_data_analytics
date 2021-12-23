@@ -1,8 +1,8 @@
-(ns clojure-for-data-analysis.core (:require
-                                    [tech.v3.datatype.datetime]
-                                    [clojure-for-data-analysis.excel-demo :as ed]
-                                    [taoensso.timbre :as timbre :refer [info error]]
-                                    [clj-time.core :as t])
+(ns clojure-for-data-manipulation.core (:require
+                                        [tech.v3.datatype.datetime]
+                                        [clojure-for-data-manipulation.excel-demo :as ed]
+                                        [taoensso.timbre :as timbre :refer [info error]]
+                                        [clj-time.core :as t])
     (:gen-class))
 
 (defn -main [& args]

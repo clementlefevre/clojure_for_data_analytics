@@ -1,4 +1,4 @@
-(ns clojure-for-data-analysis.file-service (:require [clj-time [core :as t]] [clj-time [format :as f]]))
+(ns clojure-for-data-manipulation.file-service (:require [clj-time [core :as t]] [clj-time [format :as f]]))
 
 (defn get-xlsx [path_files] (let [grammar-matcher (.getPathMatcher
                                                    (java.nio.file.FileSystems/getDefault)

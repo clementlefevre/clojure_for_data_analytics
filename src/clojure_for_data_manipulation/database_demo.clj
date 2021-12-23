@@ -1,4 +1,4 @@
-(ns clojure-for-data-analysis.database-demo  (:require [next.jdbc :as jdbc] [tablecloth.api :as tc]))
+(ns clojure-for-data-manipulation.database-demo  (:require [next.jdbc :as jdbc] [tablecloth.api :as tc]))
 ;; set the DB Connection
 (def ds (jdbc/get-datasource {:jdbcUrl "jdbc:exa:<YOUR_DB_URL>;schema=<YOUR_SCHEMA>"  :user (System/getenv "EXASOL_USER")
                               :password  (System/getenv "EXASOL_PWD") :useSSL false}))

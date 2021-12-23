@@ -10,7 +10,7 @@ Beware that [tablecloth](https://scicloj.github.io/tablecloth/index.html) works 
 
 
 ## Usage
-Just clone the repo, and, with a wokring Clojure/Lein setup, cd into the `clojure_for_data_analysis` and run `lein deps`
+Just clone the repo, and, with a working Clojure/Lein setup, cd into the `clojure_for_data_manipulation` and run `lein deps`
 Then open a REPL to explore one of the file :
 - `excel_demo.clj`
 - `db_demo.clj`
@@ -35,14 +35,12 @@ For the lucky Windows users, you need to follow the instructions [here](https://
 Once you are happy with your code, just run `lein uberjar` and you will get 2 `.jar` files in your `target folder`:  a standard `.jar` and standalone version).
 
 Then, open the **X64 Native Tools Command Prompt for VS 2019**, cd into your target folder and run the following command :
-`native-image -jar clojure-for-data-analysis-0.1.0-SNAPSHOT-standalone.jar`
+`native-image -jar clojure-for-data-manipulation-0.1.0-SNAPSHOT-standalone.jar`
 
-If everything runs smoothly, you should then get a new `clojure-for-data-analysis-0.1.0-SNAPSHOT-standalone.exe` file in the target folder.
+If everything runs smoothly, you should then get a new `clojure-for-data-manipulation-0.1.0-SNAPSHOT-standalone.exe` file in the target folder.
 
 ### Benchmark
-When running the excel-demo script on 120 Files, the jar version took 50 Seconds and the .exe version 40 Seconds. But keep in mind that the **.exe** size  is 11MB an the standalone **.jar** 88MB.
-
-
+When running the excel-demo script on 120 Files, the **.jar** version took 50 Seconds and the **.exe** version 40 Seconds. But keep in mind that the **.exe** size  is 11MB an the standalone **.jar** 88MB.
 
 
 ## License

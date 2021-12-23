@@ -1,4 +1,4 @@
-# Clojure for Data Analysis
+# Clojure for Data Manipulation
 
 A short demo on how to use the tablecloth library for data analysis.
 For people used to work with R/python, it might be difficult to find the same amount of online resources for clojure.
@@ -6,7 +6,7 @@ Hereby are some code snippets i wrote that cover some generic workflow when hand
 - load a folder of Excel file, filter, select specific columns and combine them into a single Dataframe.
 - query a Database and store the result into a Dataframe.
 
-Beware that the [tablecloth](https://scicloj.github.io/tablecloth/index.html) works with Clojure >1.10
+Beware that [tablecloth](https://scicloj.github.io/tablecloth/index.html) works with Clojure >1.10
 
 
 ## Usage
